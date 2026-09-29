@@ -1,0 +1,12 @@
+openapi: 3.0.0
+info:
+  title: Cinebook API
+  version: 1.0.0
+
+paths:
+  /api/booking/health:
+    get:
+      summary: Booking service health check
+      responses:
+        "200":
+          description: Service is running
